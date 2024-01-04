@@ -11,7 +11,10 @@ created by us are known as beans-->
 
     <!-- bean definitions here -->
 
-    <bean id="doctor" class="Demo.Doctor"> </bean>
+    <bean id="doctor" class="Demo.Doctor">
+<!--        <property name="qualification" value="B.Tech"> </property>-->
+        <constructor-arg value="Law"> </constructor-arg>
+    </bean>
     <bean id="nurse" class="Demo.Nurse"> </bean>
 
 </beans>
