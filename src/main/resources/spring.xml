@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--now we need to define the beans: all classes and objects
+created by us are known as beans-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/lang https://www.springframework.org/schema/lang/spring-lang.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean id="doctor" class="Demo.Doctor"> </bean>
+    <bean id="nurse" class="Demo.Nurse"> </bean>
+
+</beans>
