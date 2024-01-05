@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="951d84a3-19a9-40f4-88b0-84406387b182" name="Changes" comment="Repo Intialized">
+    <list default="true" id="951d84a3-19a9-40f4-88b0-84406387b182" name="Changes" comment="Injections completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Demo/BeanConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Demo/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Demo/Nurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo/Nurse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -152,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704390386479</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Injections completed">
+      <option name="closed" value="true" />
+      <created>1704391991251</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704391991251</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Repo Intialized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repo Intialized" />
+    <MESSAGE value="Injections completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Injections completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

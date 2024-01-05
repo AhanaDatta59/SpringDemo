@@ -1,12 +1,22 @@
 package Demo;
 
+import org.springframework.stereotype.Component;
+
+//@Component//to use annotations we need to mark it as a spring component
 public class Doctor implements Staff {
 
-    private String qualification;
-
-    public Doctor(String qualification) {
-        this.qualification = qualification;
+    @Override
+    public String toString() {
+        return "Doctor{" +
+                "qualification='" + qualification + '\'' +
+                '}';
     }
+
+    private String qualification;
+//
+//    public Doctor(String qualification) {
+//        this.qualification = qualification;
+//    }
 
     public void assist() {
         System.out.println("Doctor is assisting");
