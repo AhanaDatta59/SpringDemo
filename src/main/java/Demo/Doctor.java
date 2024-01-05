@@ -1,9 +1,15 @@
 package Demo;
 
+import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+
 //@Component//to use annotations we need to mark it as a spring component
-public class Doctor implements Staff {
+@Component
+@Scope(scopeName = "prototype")
+public class Doctor implements Staff, BeanNameAware {
 
     @Override
     public String toString() {
@@ -30,6 +36,15 @@ public class Doctor implements Staff {
         this.qualification = qualification;
     }
 
+    @Override
+    public void setBeanName(String name) {
+        System.out.println("Bean Name method is called");
+    }
+
+    @PostConstruct
+    public void postConstruct(){
+        System.out.println("Post construct method is called");
+    }
 
 //       assist();
 //   }
