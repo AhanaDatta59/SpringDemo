@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="951d84a3-19a9-40f4-88b0-84406387b182" name="Changes" comment="Singleton Design Pattern Implemented">
+    <list default="true" id="951d84a3-19a9-40f4-88b0-84406387b182" name="Changes" comment="Singleton and Prototype Design Pattern Implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Demo/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo/BeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Demo/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo/Doctor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704426701356</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Singleton and Prototype Design Pattern Implemented">
+      <option name="closed" value="true" />
+      <created>1704443637318</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704443637318</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +199,8 @@
     <MESSAGE value="Repo Intialized" />
     <MESSAGE value="Injections completed" />
     <MESSAGE value="Singleton Design Pattern Implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton Design Pattern Implemented" />
+    <MESSAGE value="Singleton and Prototype Design Pattern Implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton and Prototype Design Pattern Implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
